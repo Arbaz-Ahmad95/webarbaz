@@ -145,7 +145,11 @@
 
   /* ✅ Adjust text for smaller screens */
   .profile-card h3 {
+<<<<<<< HEAD
     font-size: 0.9rem !important;
+=======
+    
+>>>>>>> 97ba0a67acdf72c803be67dc094a03f785734578
   }
 
   .profile-card p {

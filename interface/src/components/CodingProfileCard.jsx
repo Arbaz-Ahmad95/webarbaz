@@ -9,7 +9,7 @@ import Hacker from '../assets/Hacker.png'
 const CodingProfileCard = () => {
   return (
     <section id="coding-profile" className="coding-profile-section">
-      <h2 className="section-title section-cod">Coding Profiles</h2>
+      <h2 className="section-title  section-cod">Coding Profiles</h2>
       <hr className="section-divider" />
       <div className="profile-container">
         <div className="profile-card">
