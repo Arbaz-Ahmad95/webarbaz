@@ -37,8 +37,8 @@ const CollegeDetails = () => {
               <p><strong>CGPA:</strong> {college.cgpa}</p>
               <p><strong>Passout Year:</strong> {college.passout}</p>
               <div className="college-links">
-                <a href={college.degreePdf} download className="btn btn-college" target="_blank" >Download Degree</a>
-                <a href={college.website} target="_blank" rel="noopener noreferrer" className="btn btn btn-college"  >Visit Website</a>
+                <a href={college.degreePdf} download className="btn btn-college" target="_blank" >Degree</a>
+                <a href={college.website} target="_blank" rel="noopener noreferrer" className="btn btn btn-college"  >Website</a>
               </div>
             </div>
           </div>
