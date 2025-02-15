@@ -34,11 +34,12 @@ html {
   color: #ff6b6b;
 }
 
-.menu-btn {
+.menu-btnn {
  
   font-size: 28px;
   cursor: pointer;
   color: white !important;
+  display: none;
 }
 
 .nav-logo{
@@ -62,8 +63,9 @@ html {
     display: flex;
   }
 
-  .menu-btn {
+  .menu-btnn {
     display: block;
     color: white !important;
+    
   }
 }

@@ -26,7 +26,7 @@ const CodingProfileCard = () => {
           <FaCode className="profile-icon" />
           <h3>Geeks For Geeks</h3>
          <a href="https://www.geeksforgeeks.org/user/arbaz121/" target="_blank"><img src={GFG} alt="GitHub Logo" className="github-logo" /></a> 
-          <p>Check out my frontend experiments and creative designs.</p>
+          <p>Solved 150+ problems on GFG , enhancing problem-solving skills.</p>
           <a href="https://www.geeksforgeeks.org/user/arbaz121/" target="_blank" className="profile-link">GFG</a>
         </div>
 
@@ -34,7 +34,7 @@ const CodingProfileCard = () => {
           <FaLaptopCode className="profile-icon" />
           <h3>LeetCode</h3>
           <a href="https://leetcode.com/u/arbaz121/" target="_blank"><img src={Leetcode} alt="GitHub Logo" className="github-logo" /></a>
-          <p>Practice coding challenges and improve problem-solving skills.</p>
+          <p>Solved 200+ problems on LeetCode, enhancing problem-solving skills in data structures.</p>
           <a href="https://leetcode.com/u/arbaz121/" target="_blank" className="profile-link">LeetCode</a>
         </div>
         <div className="profile-card">
