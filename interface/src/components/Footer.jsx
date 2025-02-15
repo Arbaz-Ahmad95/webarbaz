@@ -7,7 +7,7 @@ const Footer = () => {
     <footer id="footer" className="footer">
       <div className="footer-container">
         <div className="footer-left">
-          <h2>Arbaz</h2>
+          <h2 className="footer-h2">Arbaz</h2>
           <p>Building amazing digital experiences.</p>
           <a href="#about-me" onClick={(e) => handleSmoothScroll(e, "#about-me")} target="_blank" rel="noopener noreferrer" className="portfolio-link" id="about-me">
          
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-right">
-          <h3>Follow Me</h3>
+          <h3 className="footer-h3">Follow Me</h3>
           <div className="social-icons">
             <a href="https://github.com/Arbaz-Ahmad95?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank" rel="noopener noreferrer">
               <FaGithub />

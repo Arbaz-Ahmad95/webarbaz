@@ -35,11 +35,12 @@ html {
 }
 
 .menu-btn {
-  display: none;
+ 
   font-size: 28px;
   cursor: pointer;
   color: white !important;
 }
+
 .nav-logo{
   font-size: 28px !important;
 }
@@ -63,5 +64,6 @@ html {
 
   .menu-btn {
     display: block;
+    color: white !important;
   }
 }

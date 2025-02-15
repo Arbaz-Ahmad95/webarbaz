@@ -31,7 +31,7 @@ const Navbar = () => {
         
    
       </ul>
-      <div className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>☰</div>
+      <div className="menu-btn menubtnn" onClick={() => setMenuOpen(!menuOpen)}>☰</div>
     </nav>
   );
 };
