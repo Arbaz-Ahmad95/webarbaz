@@ -124,15 +124,16 @@
 @media (max-width: 500px) {
   .profile-container {
     display: grid;
+    grid-template-columns: 1fr; /* Only one card per row */
+    gap: 10px; /* More space between cards */
+    justify-items: center; /* Centers cards horizontally */
     grid-template-columns: repeat(2, 1fr); /* Two cards per row */
-    gap: 6px;
-    justify-content: center;
+    align-items: center;
   }
+
   .profile-card {
-    width: 90%;
-    max-width: 200px;
-    /* Adjusted for better layout */
-    padding: 15px; /* Reduced padding for better spacing */
+    width: 80%; /* Make card width more flexible */
+    max-width: 220px; /* Ensures it doesn't become too wide */
   }
 
  
@@ -140,7 +141,7 @@
   .github-logo {
     width: 100%;
     max-width: 160px !important;
-    height: auto;
+    height: 50px;
     border-radius: 14px;
   }
 
