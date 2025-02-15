@@ -130,34 +130,34 @@
   }
 
   .profile-card {
-    max-width: 180px; /* Slightly increased for better balance */
+    max-width: 160px; /* Slightly increased for better balance */
     padding: 12px;
-    height: 270px;
+    height: 250px;
   }
 
   /* ✅ Make images responsive */
   .github-logo {
     width: 100%;
-    max-width: 180px;
+    max-width: 160px;
     height: auto;
     border-radius: 14px;
   }
 
   /* ✅ Adjust text for smaller screens */
   .profile-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .profile-card p {
     font-size: 0.9rem;
   }
 
+  .profile-card p {
+    font-size: 0.8rem;
+  }
+
   .section-cod {
-    font-size: 0.75rem; /* Slightly smaller for better mobile fit */
+    font-size: 0.7rem; /* Slightly smaller for better mobile fit */
    
   }
   .profile-card p {
-    font-size: 0.75rem !important; /* Slightly smaller for better fit */
+    font-size: 0.7rem !important; /* Slightly smaller for better fit */
    
   }
 }
