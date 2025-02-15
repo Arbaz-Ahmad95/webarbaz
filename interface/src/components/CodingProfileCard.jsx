@@ -12,7 +12,7 @@ const CodingProfileCard = () => {
       <h2 className="section-title  section-cod">Coding Profiles</h2>
       <hr className="section-divider" />
       <div className="profile-container">
-        <div className="profile-card">
+        <div className="profile-card profile-cdd">
           <FaGithub className="profile-icon" />
           <h3>GitHub</h3>
          <a href="https://github.com/Arbaz-Ahmad95?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank"> <img src={Githublogo} alt="GitHub Logo" className="github-logo" /></a>

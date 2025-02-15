@@ -102,15 +102,15 @@
   }
 
   .profile-card {
-    width: 90%;
-    max-width: 200px; /* Adjusted for better layout */
+    width: 220px;
+    /* Adjusted for better layout */
     padding: 15px; /* Reduced padding for better spacing */
   }
 
   /* ✅ Make images responsive */
   .github-logo {
     width: 100%; /* Adjust to fit card */
-    max-width: 220px;
+    max-width: 200px;
     height: auto;
     border-radius: 14px;
   }
@@ -125,16 +125,17 @@
   .profile-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two cards per row */
-    gap: 8px;
+    gap: 6px;
     justify-content: center;
   }
-
   .profile-card {
-    width: 180px !important; /* Slightly increased for better balance */
-    padding: 12px;
-    height: 250px;
+    width: 90%;
+    max-width: 200px;
+    /* Adjusted for better layout */
+    padding: 15px; /* Reduced padding for better spacing */
   }
 
+ 
   /* ✅ Make images responsive */
   .github-logo {
     width: 100%;
@@ -145,11 +146,10 @@
 
   /* ✅ Adjust text for smaller screens */
   .profile-card h3 {
-<<<<<<< HEAD
+
     font-size: 0.9rem !important;
-=======
     
->>>>>>> 97ba0a67acdf72c803be67dc094a03f785734578
+
   }
 
   .profile-card p {
