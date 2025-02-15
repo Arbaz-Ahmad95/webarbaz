@@ -1,0 +1,12 @@
+/* Push content below the fixed navbar */
+.app-container {
+  margin-top: 80px; /* Adjust based on your navbar height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers everything */
+  gap: 30px; /* Adds spacing between sections */
+  
+}
+
+/* Ensure navbar is fixed but does not overlap content */
+

@@ -1,0 +1,119 @@
+.projects-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #ffffff; /* White background */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.section-divider {
+  width: 200px; /* Adjust width to match title */
+  height: 4px; /* Small height for a sleek look */
+  background-color: #ff9800; /* Choose a visually appealing color */
+  border: none;
+  margin: 8px auto; /* Center it below the title */
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Project Card */
+.project-card {
+  width: 350px;
+  background: linear-gradient(135deg, #007bff, #6610f2); /* Gradient background */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+  text-align: center;
+  height: auto; /* Keep height flexible */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.project-img {
+  width: 100%;
+  height: 180px; /* Keep image size consistent */
+  object-fit: cover;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-info {
+  padding: 20px;
+  flex: 1; /* Makes sure content stretches properly */
+}
+
+.project-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #ffffff;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ddd;
+  color: #0056b3;
+}
+
+@media (max-width: 500px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 1fr)); /* ✅ Ensures equal width */
+    gap: 15px;
+    justify-content: center; /* ✅ Centers the grid */
+    padding: 0 10px; /* ✅ Adds equal space on left & right */
+  }
+
+  .project-card {
+    width: 100%; /* ✅ Ensures equal width */
+    max-width: 260px; /* ✅ Prevents card from being too wide */
+    height: 320px; /* ✅ Keeps card height balanced */
+  }
+
+  .project-img {
+    width: 100%; /* ✅ Makes images fit within card */
+    height: 140px; /* ✅ Adjusts image size */
+    object-fit: cover;
+  }
+
+  .project-title {
+    font-size: 1rem; /* ✅ Consistent text size */
+  }
+
+  .project-description {
+    font-size: 0.75rem;
+  }
+}

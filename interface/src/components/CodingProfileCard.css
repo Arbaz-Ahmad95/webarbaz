@@ -1,0 +1,163 @@
+/* Coding Profile Section */
+.coding-profile-section {
+  margin-top: 10px; /* Ensures it appears below the ImageCard */
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Transparent Section Title */
+.section-title {
+  font-size: 2.5rem; /* Slightly smaller for better mobile fit */
+  margin-bottom: 20px;
+  
+  color: black;
+  background: transparent; /* No background color */
+}
+.section-divider {
+  width: 200px; /* Adjust width to match title */
+  height: 4px; /* Small height for a sleek look */
+  background-color: #ff9800; /* Choose a visually appealing color */
+  border: none;
+  margin: 8px auto; /* Center it below the title */
+}
+
+
+/* Container for Cards */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* 3D Profile Cards */
+.profile-card {
+  background: linear-gradient(135deg, #222, #444); /* Dark Gradient */
+  color: white;
+  padding: 20px;
+  width: 280px; /* Slightly smaller for better responsiveness */
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Profile Icons */
+.profile-icon {
+  font-size: 2.5rem; /* Slightly smaller for better mobile fit */
+  margin-bottom: 10px;
+  color: #00d4ff; /* Neon Blue */
+}
+
+/* Profile Titles */
+.profile-card h3 {
+  font-size: 1.3rem; /* Adjusted for better readability */
+  margin-bottom: 10px;
+}
+
+.github-logo {
+  width: 100%;
+  max-width: 280px; /* Matches card width */
+  height: auto;
+  border-radius: 14px;
+}
+
+/* Profile Descriptions */
+.profile-card p {
+  font-size: 0.95rem; /* Slightly smaller for better fit */
+  margin-bottom: 15px;
+  color: white;
+  opacity: 0.9;
+}
+
+/* Profile Links */
+.profile-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-link:hover {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* ✅ For screens 500px - 768px (Two cards per row, centered) */
+@media (max-width: 768px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .profile-card {
+    width: 90%;
+    max-width: 200px; /* Adjusted for better layout */
+    padding: 15px; /* Reduced padding for better spacing */
+  }
+
+  /* ✅ Make images responsive */
+  .github-logo {
+    width: 100%; /* Adjust to fit card */
+    max-width: 220px;
+    height: auto;
+    border-radius: 14px;
+  }
+  .section-title {
+    font-size: 1.5rem; /* Slightly smaller for better mobile fit */
+   
+  }
+}
+
+/* ✅ For screens below 500px (Two cards per row, properly centered) */
+@media (max-width: 500px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .profile-card {
+    max-width: 180px; /* Slightly increased for better balance */
+    padding: 12px;
+    height: 270px;
+  }
+
+  /* ✅ Make images responsive */
+  .github-logo {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 14px;
+  }
+
+  /* ✅ Adjust text for smaller screens */
+  .profile-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .profile-card p {
+    font-size: 0.9rem;
+  }
+
+  .section-cod {
+    font-size: 0.75rem; /* Slightly smaller for better mobile fit */
+   
+  }
+  .profile-card p {
+    font-size: 0.75rem !important; /* Slightly smaller for better fit */
+   
+  }
+}
