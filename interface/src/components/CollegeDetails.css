@@ -120,8 +120,8 @@
   }
 
   .college-card {
-    max-width: 300px;
-    width: 90%; /* Ensures it adapts well */
+    max-width: 280px;
+    width: 80%; /* Ensures it adapts well */
     margin-top: 10px;
   }
 
@@ -134,7 +134,31 @@
     
   }
   .college-info p {
+    font-size: 0.75rem;
+   
+  }
+
+
+
+
+  
+  
+  .college-info h3 {
     font-size: 0.85rem;
+    margin-bottom: 6px;
+  
+  }
+  
+  .college-links {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-college {
+    padding: 4px 6px;
+    
+    font-size: 0.6rem !;
    
   }
   
