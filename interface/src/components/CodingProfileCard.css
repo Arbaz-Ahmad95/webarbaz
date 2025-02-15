@@ -130,7 +130,7 @@
   }
 
   .profile-card {
-    max-width: 160px !important; /* Slightly increased for better balance */
+    width: 180px !important; /* Slightly increased for better balance */
     padding: 12px;
     height: 250px;
   }
@@ -145,7 +145,7 @@
 
   /* ✅ Adjust text for smaller screens */
   .profile-card h3 {
-    font-size: 1.6rem !important;
+    font-size: 0.9rem !important;
   }
 
   .profile-card p {
@@ -153,11 +153,17 @@
   }
 
   .section-cod {
-    font-size: 0.7rem !important; /* Slightly smaller for better mobile fit */
+    font-size: 1.2rem !important; /* Slightly smaller for better mobile fit */
    
   }
   .profile-card p {
     font-size: 0.7rem !important ; /* Slightly smaller for better fit */
    
+  }
+  .section-divider {
+    width: 150px; /* Adjust width to match title */
+    height: 3px; /* Small height for a sleek look */
+    
+    
   }
 }
