@@ -91,16 +91,22 @@
 @media (max-width: 500px) {
   .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, minmax(120px, 1fr)); /* ✅ Ensures equal width */
-    gap: 15px;
+    grid-template-columns: repeat(2,  1fr); /* ✅ Ensures equal width */
+   
     justify-content: center; /* ✅ Centers the grid */
     padding: 0 10px; /* ✅ Adds equal space on left & right */
+    gap: 10px; /* More space between cards */
+    justify-items: center; /* Centers cards horizontally */
+     /* Two cards per row */
+    align-items: center;
+    
   }
 
   .project-card {
-    width: 100%; /* ✅ Ensures equal width */
-    max-width: 260px; /* ✅ Prevents card from being too wide */
-    height: 320px; /* ✅ Keeps card height balanced */
+    /* ✅ Ensures equal width */
+    width: 100%; /* Make card width more flexible */
+    max-width: 300px; 
+    height: 240px;
   }
 
   .project-img {
@@ -108,12 +114,37 @@
     height: 140px; /* ✅ Adjusts image size */
     object-fit: cover;
   }
+  .section-title {
+    font-size: 1.2rem;
+    
+    
+  }
+
+
+  .project-info {
+    padding: 10px;
+     /* Makes sure content stretches properly */
+  }
+  
+  
 
   .project-title {
-    font-size: 1rem; /* ✅ Consistent text size */
+    font-size: 0.8rem; /* ✅ Consistent text size */
+    margin-bottom: 7px;
   }
 
   .project-description {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 7px !important;
   }
+
+  .btn {
+   
+    font-size: 0.8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: -10px !important;
+  }
+  
 }

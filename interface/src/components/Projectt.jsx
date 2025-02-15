@@ -10,7 +10,7 @@ const projects = [
   {
     name: "E-commerce Clothing",
     image: Nksons, // Correct image for this project
-    description: "A stylish online store for clothing, offering easy browsing, category filters, and a smooth checkout process.",
+    description: "A stylish online store for clothing, offering easy browsing, category filters.",
     link: "https://nk-sons.vercel.app/",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
   {
     name: "Spotify-Clone",
     image: Spotify, // Correct image for this project
-    description: "A music streaming web app inspired by Spotify, offering a seamless UI for browsing, playing, and managing songs.",
+    description: "A music streaming web app inspired by Spotify, offering a playing, and managing songs.",
     link: "https://arbaz-ahmad95.github.io/Spotify-clone/",
   },
 ];
