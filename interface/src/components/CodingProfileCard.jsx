@@ -22,13 +22,6 @@ const CodingProfileCard = () => {
           <a href="https://github.com/Arbaz-Ahmad95?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank" className="profile-link">GitHub</a>
         </div>
 
-        <div className="profile-card">
-          <FaCode className="profile-icon" />
-          <h3>Geeks For Geeks</h3>
-         <a href="https://www.geeksforgeeks.org/user/arbaz121/" target="_blank"><img src={GFG} alt="GitHub Logo" className="github-logo" /></a> 
-          <p>Solved 150+ problems on GFG , enhancing problem-solving skills.</p>
-          <a href="https://www.geeksforgeeks.org/user/arbaz121/" target="_blank" className="profile-link">GFG</a>
-        </div>
 
         <div className="profile-card">
           <FaLaptopCode className="profile-icon" />
@@ -36,6 +29,14 @@ const CodingProfileCard = () => {
           <a href="https://leetcode.com/u/arbaz121/" target="_blank"><img src={Leetcode} alt="GitHub Logo" className="github-logo" /></a>
           <p>Solved 200+ problems on LeetCode, enhancing problem-solving skills in data structures.</p>
           <a href="https://leetcode.com/u/arbaz121/" target="_blank" className="profile-link">LeetCode</a>
+        </div>
+
+        <div className="profile-card">
+          <FaCode className="profile-icon" />
+          <h3>Geeks For Geeks</h3>
+         <a href="https://www.geeksforgeeks.org/user/arbaz121/" target="_blank"><img src={GFG} alt="GitHub Logo" className="github-logo" /></a> 
+          <p>Solved 150+ problems on GFG , enhancing problem-solving skills.</p>
+          <a href="https://www.geeksforgeeks.org/user/arbaz121/" target="_blank" className="profile-link">GFG</a>
         </div>
         <div className="profile-card">
           <FaLaptopCode className="profile-icon" />
